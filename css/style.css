@@ -1,0 +1,89 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #ec008c;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fc6767, #ec008c);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fc6767, #ec008c);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Roboto', sans-serif !important;
+}
+
+p {
+	font-size: 12px !important;
+}
+
+li {
+	font-size: 12px !important;
+	text-align: justify !important;
+	padding-right: 10px;
+}
+table{
+	font-size: 11px;
+}
+
+/* Index  Page or Home Page */
+.jumbotron {
+	/* width: 400px; */
+	margin: 5% auto;
+	opacity: 0.8;
+	padding: 50px 100px;
+	background-color: white;
+	/* border-radius: 50px; */
+	text-align: center;
+	/* background-image: url("img/bg-user.jpj") no-repeat; */
+}
+
+.jumbotron .profileHeading {
+	text-align: center;/**/
+	width: 66% !important;
+	margin: auto;
+}
+
+nav .text-light {
+	font-size: 11px;
+}
+
+/* resume pages */
+.container div h5 {
+	font-size: 13px;
+	padding-top: 10px;
+	color: grey;
+}
+
+h6 {
+	background-color: #9fa6aa !important;
+	padding: 5px 10px;
+	/*color: white;*/
+	font-size: 14px !important;
+	border-radius: 5px;
+}
+
+.intend-para {
+	text-indent: 30px !important;
+	text-align: justify !important;
+	padding: 0px 10px;
+}
+
+
+/*.table td,*/ .table th {
+	width: auto;
+	padding-right: 10px !important;
+
+}
+/* Mobile Device  Break Point */
+@media (min-width: 460px) and (max-width: 767.98px) {
+	.display-2 {
+		font-size: 3rem !important;
+		/* font-weight: 300 !important; */
+	}
+
+	.jumbotron .profileHeading {
+		width: 100% !important;
+		/* margin: auto; */
+	}
+}
